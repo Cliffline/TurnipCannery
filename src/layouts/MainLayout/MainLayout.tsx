@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Box, CssBaseline } from '@mui/material';
-import SideMenu, { MenuItem, menuItems, drawerWidth, closedDrawerWidth } from '../../components/SideMenu/SideMenu';
+import SideMenu, { MenuItem } from '../../components/SideMenu/SideMenu';
 import Overview from '../../features/Overview/Overview';
 import MarketData from '../../features/MarketData/MarketData';
 import Calculators from '../../features/Calculators/Calculators';

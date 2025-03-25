@@ -106,7 +106,7 @@ export default function Calculators() {
 
   // 处理市场变更
   const handleMarketChange = (
-    event: React.MouseEvent<HTMLElement>,
+    _event: React.MouseEvent<HTMLElement>,
     newMarket: Market,
   ) => {
     if (newMarket !== null) {
@@ -117,7 +117,7 @@ export default function Calculators() {
 
   // 处理证券类型变更
   const handleSecurityTypeChange = (
-    event: React.MouseEvent<HTMLElement>,
+    _event: React.MouseEvent<HTMLElement>,
     newType: SecurityType,
   ) => {
     if (newType !== null) {
